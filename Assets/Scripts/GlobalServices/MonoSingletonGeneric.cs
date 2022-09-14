@@ -25,7 +25,6 @@ namespace GlobalServices
             else
             {
                 instance = (T)this;
-                DontDestroyOnLoad(this);
             }
         }
     }
